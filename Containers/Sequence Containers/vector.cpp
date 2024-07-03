@@ -185,7 +185,7 @@ int main()
     // capacity() - Returns the size of the storage space currently allocated to the vector expressed as number of elements
     cout << "\nCapacity of the vector is " << v6.capacity();
 
-    // resize(n) – Resizes the container so that it contains ‘n’ elements. It changes the size of the vector but does not destroys the elements
+    // resize(n) - Resizes the container so that it contains ‘n’ elements. It changes the size of the vector but does not destroys the elements
     v6.resize(10);
     cout << "\nSize of vector v6 after resize is " << v6.size();
 
